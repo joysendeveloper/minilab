@@ -1,0 +1,381 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Theme Change</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link id="theme_changer" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header id="Home">
+
+    <!-- Spining Polygon -->
+    <svg class="polygon polygon_1" id="polygon" data-name="layer 1" viewBox="0 0 121.38 105.67"><path class="cls-1" d="M311.1,173.94H252.46a2,2,0,0,0-1.77,1l-29.33,50.79a2.06,2.06,0,0,0,0,2l29.33,50.79a2,2,0,0,0,1.77,1H311.1a2.06,2.06,0,0,0,1.78-1l29.32-50.79a2.06,2.06,0,0,0,0-2L312.88,175A2.07,2.07,0,0,0,311.1,173.94Z" transform="translate(-221.09 -173.94)"/></svg>
+
+    <!-- Top Right Circle -->
+    <svg id="circle" data-name="circle" viewBox="0 0 148 196"><path class="cls-1" d="M287.84,96.54A133,133,0,0,0,405,292.54a135,135,0,0,0,15-.84V96.54Z" transform="translate(-272 -96.54)"/></svg>
+
+
+    <div class="theme-change-box"  id="color-switcher">
+      <div class="icon" onclick="btnclicked()">
+        <i class="fas fa-cog"></i>
+      </div>
+      <ul class="color-switcher">
+        <li onclick="theme_change('css/style.css')" class="btn btn-color btn-normal"></li>
+        <li onclick="theme_change('css/purple.css')" class="btn btn-color btn-purple"></li>
+        <li onclick="theme_change('css/turquoise.css')" class="btn btn-color btn-turquoise"></li>
+        <li onclick="theme_change('css/yellow.css')" class="btn btn-color btn-yellow"></li>
+        <li class="btn btn-color"></li>
+        <li class="btn btn-color"></li>
+      </ul>
+    </div>
+
+  <!-- Start navigation section -->
+  <nav class="navbar navbar-expand-lg py-3">
+  <div class="container">
+    <a class="navbar-brand" href="#Home">
+      <!-- <img src="img/logo.png" height="40px" width="180px"  alt="MINILAB"> -->
+      mini<span>lab</span>
+    </a>
+
+    <button class="navbar-toggler  navbar-toggler-right" type="button" name="button" data-toggle="collapse" data-target="#navbar"><span id="btnico" class=""><i class="fas fa-align-right"></i></span></button>
+
+    <div class="navbar-collapse collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link pl-2" href="#Home">Home</a></li>
+      <li class="nav-item"><a class="nav-link pl-2" href="#about-us">About Us</a></li>
+      <li class="nav-item"><a class="nav-link pl-2" href="#project">Our Project</a></li>
+      <li class="nav-item"><a class="nav-link pl-2" href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="search-box">
+      <input class="search-txt" type="text" name="" placeholder="Search">
+      <span class="search-btn"><i class="fas fa-search"></i></span>
+    </div>
+    </div>
+  </div>
+  </nav>
+  <!-- end navigation section -->
+
+    <div class="main-box">
+      <div class="container">
+        <div class="main">
+        <div class="row">
+          <div class="col-md-6 pb-4">
+            <h1>Start Thinking</h1>
+            <h1>Creative Ideas</h1>
+            <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsum doloribus</p>
+            <a href="" class="btn btn-custom">See More</a>
+          </div>
+          <div class="col-md-6 pb-4 text-center photo">
+            <img src="img/photo.jpg" class="img-fluid" alt="Photo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </header>
+
+<section id="about-us">
+  <svg class="polygon polygon_2" id="polygon" data-name="layer 1" viewBox="0 0 121.38 105.67"><path class="cls-1" d="M311.1,173.94H252.46a2,2,0,0,0-1.77,1l-29.33,50.79a2.06,2.06,0,0,0,0,2l29.33,50.79a2,2,0,0,0,1.77,1H311.1a2.06,2.06,0,0,0,1.78-1l29.32-50.79a2.06,2.06,0,0,0,0-2L312.88,175A2.07,2.07,0,0,0,311.1,173.94Z" transform="translate(-221.09 -173.94)"/></svg>
+
+  <svg class="y-polygon y-polygon-1" id="" data-name="yellow-polygon" viewBox="0 0 90.75 78.95"><path class="cls-1" d="M80.14,13.36H36.29a1.5,1.5,0,0,0-1.33.75L13,52.09a1.52,1.52,0,0,0,0,1.49L35,91.56a1.5,1.5,0,0,0,1.33.75H80.14a1.55,1.55,0,0,0,1.33-.75l21.92-38a1.52,1.52,0,0,0,0-1.49L81.47,14.15A1.56,1.56,0,0,0,80.14,13.36Z" transform="translate(-12.84 -13.36)"/></svg>
+
+
+  <div class="container">
+    <div class="row pb-5">
+      <div class="col-12 text-center">
+        <h2 class="mx-auto w-75">We're Creative Digital Agency & Marketing Expert</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+
+      <div class="col-md-3 mb-4">
+        <div class="custom-card">
+
+          <!-- SVG Logo -->
+
+          <svg class="card_img" version="1.1" id="light_bulb" x="0px" y="0px"
+          	 viewBox="0 0 432.4 432.4" style="enable-background:new 0 0 432.4 432.4;" xml:space="preserve">
+          <g>
+          	<g>
+          		<g>
+          			<path d="M216.529,93.2c-61.2,0-111.2,50-111.2,111.2c0,32,14,62.8,37.6,83.6c17.6,17.6,16,55.2,15.6,55.6
+          				c0,2,0.4,3.6,2,5.2c1.2,1.2,3.2,2,4.8,2h102c2,0,3.6-0.8,4.8-2c1.2-1.2,2-3.2,2-5.2c0-0.4-2-38,15.6-55.6
+          				c0.4-0.4,0.8-0.8,1.2-1.2c23.2-21.2,36.8-51.2,36.8-82.4C327.729,143.2,277.729,93.2,216.529,93.2z M280.529,277.6
+          				c-0.4,0.4-1.2,1.2-1.2,1.6c-15.6,16.8-18.4,44.4-18.8,57.6h-88.4c-0.4-13.2-3.2-42-20-59.2c-21.2-18.4-33.6-45.2-33.6-73.6
+          				c0-54,43.6-97.6,97.6-97.6s97.6,43.6,97.6,97.6C313.729,232.4,301.729,259.2,280.529,277.6z"/>
+          			<path d="M216.129,121.6c-3.6,0-6.8,3.2-6.8,6.8c0,3.6,3.2,6.8,6.8,6.8c40.4,0,72.8,32.8,72.8,72.8
+          				c0,3.6,3.2,6.8,6.8,6.8c3.6,0,6.8-3.2,6.8-6.8C302.929,160.4,264.129,121.6,216.129,121.6z"/>
+          			<path d="M260.529,358.4h-88.8c-9.2,0-16.8,7.6-16.8,16.8s7.6,16.8,16.8,16.8h88.4
+          				c9.6-0.4,17.2-7.6,17.2-16.8C277.329,366,269.729,358.4,260.529,358.4z M260.529,378h-88.8c-1.6,0-3.2-1.2-3.2-3.2
+          				s1.2-3.2,3.2-3.2h88.4c1.6,0,3.2,1.2,3.2,3.2S262.129,378,260.529,378z"/>
+          			<path d="M247.329,398.8h-62.4c-9.2,0-16.8,7.6-16.8,16.8s7.6,16.8,16.8,16.8h62.4
+          				c9.2,0,16.8-7.6,16.8-16.8C264.129,406,256.529,398.8,247.329,398.8z M247.329,418.4h-62.4c-1.6,0-3.2-1.2-3.2-3.2
+          				s1.2-3.2,3.2-3.2h62.4c1.6,0,3.2,1.2,3.2,3.2S248.929,418.4,247.329,418.4z"/>
+          			<path d="M216.129,60c4,0,6.8-3.2,6.8-6.8V6.8c0-3.6-3.2-6.8-6.8-6.8c-3.6,0-6.8,3.2-6.8,6.8v46.4
+          				C209.329,56.8,212.529,60,216.129,60z"/>
+          			<path d="M329.329,34.4c-3.2-2.4-7.2-1.2-9.2,1.6l-25.6,38.4c-2.4,3.2-1.6,7.6,1.6,9.6
+          				c1.2,0.8,2.4,1.2,3.6,1.2c2.4,0,4.4-1.2,5.6-3.2l25.6-38.4C333.329,40.8,332.529,36.4,329.329,34.4z"/>
+          			<path d="M134.929,83.6c1.2,0,2.4-0.4,3.6-1.2c3.2-2,4-6.4,2-9.6l-24.8-38.8c-2-3.2-6.4-4-9.6-2
+          				s-4,6.4-2,9.6l24.8,38.8C130.529,82.8,132.529,83.6,134.929,83.6z"/>
+          			<path d="M86.529,126l-40.4-22c-3.2-1.6-7.6-0.4-9.2,2.8c-2,3.2-0.8,7.6,2.8,9.2l40.4,22
+          				c1.2,0.4,2,0.8,3.2,0.8c2.4,0,4.8-1.2,6-3.6C90.929,132,89.729,127.6,86.529,126z"/>
+          			<path d="M395.729,106.8c-1.6-3.2-6-4.4-9.2-2.8l-40.8,22c-3.2,1.6-4.4,6-2.8,9.2c1.2,2.4,3.6,3.6,6,3.6
+          				c1.2,0,2.4-0.4,3.2-0.8l40.8-22C396.129,114.4,397.329,110,395.729,106.8z"/>
+          		</g>
+          	</g>
+          </g>
+        </svg>
+
+
+          <p><b>Startup Bussiness</b></p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestias!</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="custom-card">
+          <svg class="card_img" version="1.1" id="Capa_1" x="0px" y="0px"
+          	 viewBox="0 0 384 384" style="enable-background:new 0 0 384 384;" xml:space="preserve">
+          <g>
+          	<g>
+          		<path d="M192,0C85.973,0,0,85.973,0,192s85.973,192,192,192c17.707,0,32-14.293,32-32c0-8.32-3.093-15.787-8.32-21.44
+          			c-5.013-5.653-8-13.013-8-21.227c0-17.707,14.293-32,32-32h37.653c58.88,0,106.667-47.787,106.667-106.667
+          			C384,76.373,298.027,0,192,0z M74.667,192c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S92.373,192,74.667,192z
+          			 M138.667,106.667c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S156.373,106.667,138.667,106.667z M245.333,106.667
+          			c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S263.04,106.667,245.333,106.667z M309.333,192
+          			c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S327.04,192,309.333,192z"/>
+          	</g>
+          </g>
+          </svg>
+
+          <p><b>Creative Mind</b></p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestias!</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="custom-card">
+          <svg class="card_img" version="1.1" id="Capa_1" x="0px" y="0px"
+          	 viewBox="0 0 488 488" style="enable-background:new 0 0 488 488;" xml:space="preserve">
+          <g>
+          	<g>
+          		<path d="M440.36,344.408c-4.832-12.4-16.528-20.408-29.832-20.408H344v-12.688L395.312,260h29.824c3.576,13.768,16,24,30.864,24
+          			c17.648,0,32-14.352,32-32s-14.352-32-32-32c-14.864,0-27.288,10.232-30.864,24H392c-2.12,0-4.16,0.84-5.656,2.344L344,288.688
+          			v-25.376l93.656-93.656C439.16,168.16,440,166.128,440,164V66.864c13.76-3.576,24-15.992,24-30.864c0-17.648-14.352-32-32-32
+          			s-32,14.352-32,32c0,14.872,10.24,27.288,24,30.864v93.824l-8,8l-24-24V108h-16v40c0,2.128,0.84,4.16,2.344,5.656L404.688,180
+          			L360,224.688l-16-16V180h-16v32c0,2.128,0.84,4.16,2.344,5.656L348.688,236l-18.344,18.344C328.84,255.84,328,257.872,328,260v64
+          			h-32V191.312l45.656-45.656C343.16,144.16,344,142.128,344,140V90.864c13.76-3.576,24-15.992,24-30.864c0-17.648-14.352-32-32-32
+          			s-32,14.352-32,32c0,14.872,10.24,27.288,24,30.864v45.824l-45.656,45.656C280.84,183.84,280,185.872,280,188v136h-32V66.864
+          			c13.76-3.576,24-15.992,24-30.864c0-17.648-14.352-32-32-32s-32,14.352-32,32c0,14.872,10.24,27.288,24,30.864v165.824l-24-24V148
+          			h-16v64c0,2.128,0.84,4.16,2.344,5.656L232,255.312V324h-32v-40c0-2.128-0.84-4.16-2.344-5.656L123.312,204l42.344-42.344
+          			C167.16,160.16,168,158.128,168,156V98.864c13.76-3.576,24-15.992,24-30.864c0-17.648-14.352-32-32-32s-32,14.352-32,32
+          			c0,14.872,10.24,27.288,24,30.864v53.824l-40,40l-16-16v-29.824c13.76-3.576,24-15.992,24-30.864c0-17.648-14.352-32-32-32
+          			s-32,14.352-32,32c0,14.872,10.24,27.288,24,30.864V180c0,2.128,0.84,4.16,2.344,5.656L184,287.312V324h-32v-24
+          			c0-2.128-0.84-4.16-2.344-5.656L40,184.688V66.864C53.76,63.288,64,50.872,64,36C64,18.352,49.648,4,32,4S0,18.352,0,36
+          			c0,14.872,10.24,27.288,24,30.864V188c0,2.128,0.84,4.16,2.344,5.656L68.688,236H64c-2.12,0-4.16,0.84-5.656,2.344l-10.192,10.192
+          			C43.392,245.72,37.92,244,32,244c-17.648,0-32,14.352-32,32s14.352,32,32,32s32-14.352,32-32c0-5.92-1.72-11.392-4.536-16.152
+          			L67.312,252h17.376L136,303.312V324H69.472c-13.304,0-25,8.008-29.824,20.408l-37.336,96c-3.832,9.84-2.552,20.936,3.416,29.656
+          			C11.696,478.792,21.568,484,32.144,484h415.72c10.568,0,20.448-5.208,26.416-13.936c5.968-8.72,7.24-19.816,3.416-29.656
+          			L440.36,344.408z M456,236c8.824,0,16,7.176,16,16c0,8.824-7.176,16-16,16c-8.824,0-16-7.176-16-16
+          			C440,243.176,447.176,236,456,236z M416,36c0-8.824,7.176-16,16-16c8.824,0,16,7.176,16,16s-7.176,16-16,16
+          			C423.176,52,416,44.824,416,36z M320,60c0-8.824,7.176-16,16-16c8.824,0,16,7.176,16,16s-7.176,16-16,16
+          			C327.176,76,320,68.824,320,60z M144,68c0-8.824,7.176-16,16-16c8.824,0,16,7.176,16,16s-7.176,16-16,16
+          			C151.176,84,144,76.824,144,68z M72,116c0-8.824,7.176-16,16-16s16,7.176,16,16s-7.176,16-16,16S72,124.824,72,116z M16,36
+          			c0-8.824,7.176-16,16-16s16,7.176,16,16s-7.176,16-16,16S16,44.824,16,36z M32,292c-8.824,0-16-7.176-16-16
+          			c0-8.824,7.176-16,16-16s16,7.176,16,16C48,284.824,40.824,292,32,292z M296,340h32v16h-32V340z M280,340v16h-32v-16H280z M224,36
+          			c0-8.824,7.176-16,16-16c8.824,0,16,7.176,16,16s-7.176,16-16,16C231.176,52,224,44.824,224,36z M200,340h32v16h-32V340z M152,340
+          			h32v16h-32V340z M152,404v-32h32v32h16v-32h32v32h16v-32h32v32h16v-32h32v32h16v-32h34.232l18.664,56h-313.8l18.664-56H136v32H152
+          			z M461.072,461.032c-3.032,4.432-7.848,6.968-13.216,6.968H32.144c-5.36,0-10.176-2.536-13.208-6.968
+          			c-3.032-4.432-3.656-9.832-1.712-14.832l37.336-96c2.416-6.192,8.264-10.2,14.912-10.2H136v16H96c-3.448,0-6.496,2.2-7.592,5.472
+          			l-24,72c-0.816,2.44-0.4,5.128,1.104,7.208c1.504,2.08,3.92,3.32,6.488,3.32h336c2.568,0,4.984-1.232,6.488-3.32
+          			c1.504-2.088,1.912-4.776,1.104-7.208l-24-72C390.496,358.2,387.448,356,384,356h-40v-16h66.528c6.648,0,12.496,4.008,14.912,10.2
+          			l37.336,96C464.72,451.2,464.104,456.6,461.072,461.032z"/>
+          	</g>
+          </g>
+          <g>
+          	<g>
+          		<rect x="192" y="100" width="16" height="32"/>
+          	</g>
+          </g>
+          <g>
+          	<g>
+          		<rect x="376" y="76" width="16" height="16"/>
+          	</g>
+          </g>
+          </svg>
+
+          <p><b>Research & Technology</b></p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestias!</p>
+        </div>
+      </div>
+
+        <div class="col-12 text-center">
+          <a href="" class="btn btn-custom my-5">Watch More</a>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section id="project">
+
+  <!-- Spining Polygon -->
+  <svg class="polygon polygon_3" id="polygon" data-name="layer 1" viewBox="0 0 121.38 105.67"><path class="cls-1" d="M311.1,173.94H252.46a2,2,0,0,0-1.77,1l-29.33,50.79a2.06,2.06,0,0,0,0,2l29.33,50.79a2,2,0,0,0,1.77,1H311.1a2.06,2.06,0,0,0,1.78-1l29.32-50.79a2.06,2.06,0,0,0,0-2L312.88,175A2.07,2.07,0,0,0,311.1,173.94Z" transform="translate(-221.09 -173.94)"/></svg>
+
+  <!-- Spining Polygon -->
+  <svg class="polygon polygon_2" id="polygon" data-name="layer 1" viewBox="0 0 121.38 105.67"><path class="cls-1" d="M311.1,173.94H252.46a2,2,0,0,0-1.77,1l-29.33,50.79a2.06,2.06,0,0,0,0,2l29.33,50.79a2,2,0,0,0,1.77,1H311.1a2.06,2.06,0,0,0,1.78-1l29.32-50.79a2.06,2.06,0,0,0,0-2L312.88,175A2.07,2.07,0,0,0,311.1,173.94Z" transform="translate(-221.09 -173.94)"/></svg>
+
+    <svg class="y-polygon y-polygon-2" id="" data-name="yellow-polygon" viewBox="0 0 90.75 78.95"><path class="cls-1" d="M80.14,13.36H36.29a1.5,1.5,0,0,0-1.33.75L13,52.09a1.52,1.52,0,0,0,0,1.49L35,91.56a1.5,1.5,0,0,0,1.33.75H80.14a1.55,1.55,0,0,0,1.33-.75l21.92-38a1.52,1.52,0,0,0,0-1.49L81.47,14.15A1.56,1.56,0,0,0,80.14,13.36Z" transform="translate(-12.84 -13.36)"/></svg>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+        <h2 class="py-3">Let's See How We Work</h2>
+        <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi magnam excepturi velit mollitia ut nobis!</p>
+        <a href="" class="btn btn-custom my-3">Watch More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clients">
+
+  <!-- Spining Polygon -->
+  <svg class="polygon polygon_5" id="polygon" data-name="layer 1" viewBox="0 0 121.38 105.67"><path class="cls-1" d="M311.1,173.94H252.46a2,2,0,0,0-1.77,1l-29.33,50.79a2.06,2.06,0,0,0,0,2l29.33,50.79a2,2,0,0,0,1.77,1H311.1a2.06,2.06,0,0,0,1.78-1l29.32-50.79a2.06,2.06,0,0,0,0-2L312.88,175A2.07,2.07,0,0,0,311.1,173.94Z" transform="translate(-221.09 -173.94)"/></svg>
+
+  <svg class="y-polygon y-polygon-3" id="" data-name="yellow-polygon" viewBox="0 0 90.75 78.95"><path class="cls-1" d="M80.14,13.36H36.29a1.5,1.5,0,0,0-1.33.75L13,52.09a1.52,1.52,0,0,0,0,1.49L35,91.56a1.5,1.5,0,0,0,1.33.75H80.14a1.55,1.55,0,0,0,1.33-.75l21.92-38a1.52,1.52,0,0,0,0-1.49L81.47,14.15A1.56,1.56,0,0,0,80.14,13.36Z" transform="translate(-12.84 -13.36)"/></svg>
+
+  <div class="container">
+    <div class="row py-4">
+      <div class="col-12 text-center">
+        <h2 class="mx-auto w-75">Some Awesome Words By Our Clients</h2>
+      </div>
+    </div>
+    <div class="row py-5 justify-content-center">
+      <div class="col-md-4 mb-4">
+        <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae mollitia, quia obcaecati nobis illo fugit.</p>
+        <a href="" class="my-4 btn btn-custom">Watch More</a>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="custom-card">
+          <img src="img/person2.jpg" class="rounded-circle" alt="person2">
+          <p>James Richard</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestias!</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="custom-card">
+          <img src="img/person1.jpg" class="rounded-circle" alt="person1">
+          <p>Rose Charles</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestias!</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+
+  <!-- Spining Polygon -->
+  <svg class="polygon polygon_4" id="polygon" data-name="layer 1" viewBox="0 0 121.38 105.67"><path class="cls-1" d="M311.1,173.94H252.46a2,2,0,0,0-1.77,1l-29.33,50.79a2.06,2.06,0,0,0,0,2l29.33,50.79a2,2,0,0,0,1.77,1H311.1a2.06,2.06,0,0,0,1.78-1l29.32-50.79a2.06,2.06,0,0,0,0-2L312.88,175A2.07,2.07,0,0,0,311.1,173.94Z" transform="translate(-221.09 -173.94)"/></svg>
+
+  <svg class="y-polygon y-polygon-2" id="" data-name="yellow-polygon" viewBox="0 0 90.75 78.95"><path class="cls-1" d="M80.14,13.36H36.29a1.5,1.5,0,0,0-1.33.75L13,52.09a1.52,1.52,0,0,0,0,1.49L35,91.56a1.5,1.5,0,0,0,1.33.75H80.14a1.55,1.55,0,0,0,1.33-.75l21.92-38a1.52,1.52,0,0,0,0-1.49L81.47,14.15A1.56,1.56,0,0,0,80.14,13.36Z" transform="translate(-12.84 -13.36)"/></svg>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="mx-auto w-75">Update Your Marketing Resources</h2>
+        <form class="" action="" method="post">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 mb-4">
+              <input class="form-control" type="email" name="" value="" placeholder="Enter Your Mail">
+            </div>
+            <div class="col-lg-2 mb-4">
+              <button type="button" class="btn btn-custom" name="button">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="#Home"><img src="img/logo2.png" height="40px" width="180px"  alt="MINILAB"></a>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <p class="header">Features</p>
+
+        <p><a href="">Live Chat</a></p>
+        <p><a href="">Email Marketing</a></p>
+        <p><a href="">User Analytics</a></p>
+        <p><a href="">Marketing</a></p>
+        <p><a href="">Automation</a></p>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <p class="header">Resources</p>
+
+        <p><a href="">Watch A Demo</a></p>
+        <p><a href="">Docs</a></p>
+        <p><a href="">Integrations & API</a></p>
+        <p><a href="">IOS Ans Android</a></p>
+        <p><a href="">Apps</a></p>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <p class="header">Company</p>
+
+        <p><a href="">About</a></p>
+        <p><a href="">Customers</a></p>
+        <p><a href="">Careers</a></p>
+        <p><a href="">Contact Us</a></p>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <p class="header">Contact</p>
+        <p><a href="">support@domain.com</a></p>
+        <a href=""><i class="icon fab fa-facebook"></i></a>
+        <a href=""><i class="icon fab fa-instagram"></i></a>
+        <a href=""><i class="icon fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+
+  <script type="text/javascript">
+  function btnclicked(){
+  document.getElementById('color-switcher').classList.toggle('slide-in');
+  }
+  </script>
+  <script type="text/javascript">
+    function theme_change(Cssfile) {
+      document.getElementById('theme_changer').href = Cssfile;
+    }
+  </script>
+
+</body>
+</html>

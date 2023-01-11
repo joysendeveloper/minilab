@@ -1,0 +1,33 @@
+#polygon, #circle{
+  fill: #fff200;
+}
+.y-polygon{
+  fill: #fffa65;
+}
+.btn-custom{
+  background: linear-gradient(to right, #fffa65, #fff200);
+}
+.btn-custom:hover{
+  background: linear-gradient(to right, #fff200, #fffa65);
+}
+#footer{
+  background: linear-gradient(to right, #fff200, #fffa65);
+}
+nav ul li a:hover{
+  color: #fff200;
+}
+.search-btn:hover{
+  color: #000;
+}
+nav .navbar-brand span{
+  color: #fff200;
+}
+.custom-card .card_img{
+  fill: #fff200;
+}
+.custom-card:hover{
+  background: linear-gradient(to bottom, #fffa65, #fff200);
+}
+#contact input::placeholder{
+  color: #fff200;
+}
